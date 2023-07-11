@@ -1,0 +1,48 @@
+package KodnestCaluculator;
+
+import java.util.Scanner;
+
+public class CaluculatorApp {
+	public static void main(String[] args) {
+		System.out.println("Welcome to kondestcaluculator----");
+        Scanner scan=new Scanner(System.in);
+        char ch=scan.next().charAt(0);
+        Caluculator c1=new Caluculator();
+		while(true) {
+		System.out.println("+ ==========>addition");
+		System.out.println("- ==========>subtraction");
+		System.out.println("* ==========>multipication");
+		System.out.println("/ ==========>division");
+		System.out.println("% ==========>remainder");
+		System.out.println("^==========>square");
+		System.out.println("!==========>stop");
+		System.out.println("enter your choice");
+		switch(ch) {
+		case '+':c1.add();
+		break;
+		case '-':c1.sub();
+		break;
+		case '*':c1.mul();
+		break;
+		case '/':c1.div();
+		break;
+		case '%':c1.rem();
+		break;
+		case '^':c1.findSquare();
+		break;
+		case'!':System.out.println("byee ta taa see u");
+			return;
+			default:
+				System.out.println("see msg carefully");
+		}
+		
+		
+		
+		
+	}
+	}
+
+
+	}
+
+

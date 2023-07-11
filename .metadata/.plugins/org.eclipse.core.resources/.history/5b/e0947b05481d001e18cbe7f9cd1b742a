@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class AdditionOperator {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int num1=scan.nextInt();
+		int num2=scan.nextInt();
+		int res=subtractNumbers( num1,num2);
+		
+		System.out.println("sub res:"+res);
+		
+		int res1=multiplyNumbers(num1,num2);
+		System.out.println("mulres:"+res1);
+		
+	}
+	
+	public static int subtractNumbers(int num1,int num2){
+		return num1-num2;
+		
+		
+	}
+	public static int multiplyNumbers(int num1,int num2){
+		return num1*num2;
+	
+	}
+	public static int divisionNumbers(int num1,int num2){
+		return num1/num2;
+	
+	}
+		public static int remainderNumbers(int num1,int num2){
+			return num1%num2;
+	}
+	}
+	
+

@@ -1,0 +1,15 @@
+
+public class SumDigit {
+	public static void main(String[] args) {
+		
+		int sum=0;
+		int num=1;
+		while(num>0) {
+			int digit=num;
+			sum=sum+digit;
+			num=num/10;
+		}
+		System.out.println("Sum of digits in " + num + ": " + sum);
+	}
+
+}

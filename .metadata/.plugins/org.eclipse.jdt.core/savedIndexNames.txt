@@ -1,0 +1,20 @@
+INDEX VERSION 1.134+C:\Users\Srinivasa rao\eclipse-saturday\.metadata\.plugins\org.eclipse.jdt.core
+2501101974.index
+301057461.index
+43290753.index
+4037171619.index
+3278801420.index
+1865797976.index
+1555254226.index
+2746952362.index
+2235942421.index
+2455602288.index
+4289400677.index
+4190041007.index
+2176366567.index
+80914538.index
+4286723948.index
+1307529563.index
+2320045133.index
+1070590067.index
+3072338057.index

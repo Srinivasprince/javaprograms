@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SumDigit {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int sum=0;
+		int num=0;
+		while(num>0) {
+			int digit=num;
+			sum=sum+digit;
+			num=num/10;
+		}
+	}
+
+}

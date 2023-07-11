@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class PrimeApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan=new Scanner(System.in);
+int num=scan.nextInt();
+boolean b=prime(num);
+if(b==true)
+{
+	System.out.println("prime");
+}
+else {
+	System.out.println("not");
+}
+
+	}
+	
+	 public static boolean prime(int num) {
+		 if (num==1) {
+			 return true;
+		 }
+		 else if(num==2) {
+			 return true;
+		 }
+		 else if(num>2) {
+			 if (num%2==0) {
+				 return false;
+			 }
+			 else {
+				 return true;
+			 }
+		 }
+		 return true;
+	 }
+	
+
+}

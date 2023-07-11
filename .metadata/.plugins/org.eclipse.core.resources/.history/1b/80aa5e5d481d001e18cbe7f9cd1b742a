@@ -1,0 +1,13 @@
+
+public class Thread {
+	public static void main(String[] args) {
+		 double res=doubleTheNumber(15);
+		 System.out.println("res"+res);
+		
+		
+	}
+	public static int doubleTheNumber(int num) {
+	return num*2;
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Sum {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+      int res = scan.nextInt();
+      Sum s1=new Sum();
+      int input=s1.Sum( input);
+      System.out.println(res);
+
+        
+    }
+
+	private static int Sum(int input) {
+		// TODO Auto-generated method stub
+		return input;
+	}
+
+	
+	}
+
+
+

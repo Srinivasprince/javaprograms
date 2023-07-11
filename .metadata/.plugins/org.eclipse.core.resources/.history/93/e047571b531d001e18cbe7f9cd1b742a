@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class CalculatorJourney {
+	public double calculateDistance( double speed, double time ) {
+		double res=CalculatorJourney.calculateDistance(60.0, 1.5);
+		System.out.printf("%.2f",res);
+		
+	}
+
+}
+
+

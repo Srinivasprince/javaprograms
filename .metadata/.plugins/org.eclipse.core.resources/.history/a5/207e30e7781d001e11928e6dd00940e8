@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class TimeCoverterApp {
+public static void main(String[] args) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println(" enter the time");
+	TimeConverter c1=new TimeConverter();
+	int min=scan.nextInt();
+	System.out.printf("%.2f",c1.convertToHours(min));
+	
+	
+}
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Sum {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+      int input = scan.nextInt();
+
+        if (Sum(input)) {
+            System.out.println(input);
+        } //else {
+            //System.out.println("The string is not a palindrome.");
+        //}
+    
+    }
+
+	private static boolean Sum(int input) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	
+	}
+
+
+
